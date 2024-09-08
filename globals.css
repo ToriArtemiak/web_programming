@@ -1,0 +1,21 @@
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    color: #091133;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+a {
+    text-decoration: none;
+    color: #091133;
+}
+
+li {
+    display: block;
+}
+
+
