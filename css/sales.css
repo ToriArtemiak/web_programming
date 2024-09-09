@@ -1,1 +1,81 @@
+.sales {
+    margin-top: 221px;
+    max-height: 738px;
+    align-items: center;
+    max-width: 1110px;
+    margin-bottom: 211px;
+}
 
+.sales__block-tittle {
+    margin-bottom: 88px;
+}
+
+.sales__tittle {
+    width: 7300px;
+    max-height: 96px;
+    color: #091133;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.sales_paragraph {
+    max-width: 730px;
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.sales__block-elements {
+    margin-top: 86px;
+    display: flex;
+}
+
+.sales__block-element {
+    max-width: 350px;
+    height: 262px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.sales__block-price {
+    color: #37447E;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px; 
+    margin-bottom: 16px;
+}
+
+.sales__block-tittle{
+    color: #091133;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px; 
+    margin-bottom: 8px;
+}
+
+.sales_block-paragraph{
+    color: #5D6970;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.purchase_now {
+    width: 189px;
+    height: 26px;
+    border: 0;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFF;
+    background-color: #111B47;
+    margin-top: 34px;
+}
