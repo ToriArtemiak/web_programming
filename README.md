@@ -3,7 +3,7 @@
 ## Виконала: Артемяк Вікторія Вадимівна(ІР-22)
 ## Лабораторна робота №1 (Варіант 1)
 
-Description: Create a landing page following the given design (Figma).
+Create a landing page following the given design (Figma).
 Requirements:
 Use of semantic tags (<header>, <nav>, <ul>, <footer>, etc.) 
 wherever is necessary
