@@ -6,12 +6,11 @@
     background: #E7ECFF;
     align-items: center;
     display: flex;
-    margin-top: 211px;
     align-items: center;
 }
 
 .year-logo {
-    margin-top: 36;
+    margin-top: 36px;
     display: flex;
     width: 1110px;
     justify-content: space-between;
@@ -44,6 +43,7 @@
 
 .about__section {
     max-width: 245px;
+    max-height: 111px;
     margin-right: 433px;
     margin-left: 433px;
 }
@@ -53,8 +53,10 @@
     height: 26px;
     border: 0;
     border-radius: 2px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     flex-shrink: 0;
     text-align: center;
     font-size: 12px;
@@ -62,16 +64,17 @@
     line-height: 18px;
     color: #FFF;
     background-color: #111B47;
-    margin-bottom: 22px;
     margin-left: 62px;
 }
 
 .about {
     display: flex;
     max-width: 245px;
+    max-height: 67px;
     justify-content: space-between;
     margin-bottom: 26px;
     flex-shrink: 0;
+    margin-top: 22px;
 }
 
 .footer__nav-item {
@@ -86,6 +89,6 @@
     display: flex;
     width: 215px;
     justify-content: space-between;
-    padding-right: 17px;
-    padding-left: 17px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
