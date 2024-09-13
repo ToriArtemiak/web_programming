@@ -10,25 +10,28 @@
 
     <!-- Roboto font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 
 
 <body> 
-    <section class="hero">
+    <section class="main">
         <div class="container">
             <header class="header">
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img src="./images/menu_icon.svg" alt="Menu icon">
+                </div>
                 <div class="header__title">Landie</div>  
                 <nav class="header__nav">
                     <ul>
-                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html">Home</a></li>
-                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html">About</a></li>
-                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html">Pricing</a></li>
-                        <div class="nav__buttons">
-                            <a href="http://127.0.0.1:5500/empty.html" class="header__nav__learn-more">Learn more</a>
-                            <a href="http://127.0.0.1:5500/empty.html" class="header__nav__buy-now">Buy now</a>
-                        </div>
+                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">Home</a></li>
+                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">About</a></li>
+                        <li class="header__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">Pricing</a></li>
+                        <li class="nav__buttons">
+                            <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="header__nav__learn-more">Learn more</a>
+                            <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="header__nav__buy-now">Buy now</a>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -36,7 +39,10 @@
 
 
 
-        <div class="container"> 
+        <div class="container">
+            <div class="background__image">
+                <img src="./images/picture_tablet.png" alt="image" class="screen__ilustration">
+            </div>
             <section class="hero">
                 <div class="hero__inner">
                     <div class="hero__inner__left-block">
@@ -77,12 +83,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="screen__ilustration">
-                        <img src="./images/picture_tablet.png" alt="">
-                    </div>
                 </div>
             </section>
-        </div>
+            </div>
     </section>
 
     
@@ -149,48 +152,48 @@
             <div class="sales__block-elements">
                 <div class="sales__block-element">
                     <h2 class="sales__block-price">FREE</h2>
-                    <h3 class="sales__block-tittle">UI Kit Demo<h3>
+                    <h3 class="sales__block-tittle">UI Kit Demo</h3>
                     <div class="sales__text">
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing 
                             elit. Aenean commodo ligula eget dolor. 
                         </p>
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Aenean massa. Cum sociis natoque penatibus et 
                             magnis dis parturient montes, nascetur ridiculus 
                         </p>
                     </div>
-                    <a href="http://127.0.0.1:5500/empty.html" class="purchase_now">Purchase Now</a>
+                    <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="purchase_now">Purchase Now</a>
                 </div>
                 <div class="sales__block-element">
                     <h2 class="sales__block-price">$40</h2>
-                    <h3 class="sales__block-tittle">Design Kit<h3>
+                    <h3 class="sales__block-tittle">Design Kit</h3>
                     <div class="sales__text">
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing 
                             elit. Aenean commodo ligula eget dolor. 
                         </p>
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Aenean massa. Cum sociis natoque penatibus et 
                             magnis dis parturient montes, nascetur ridiculus 
                         </p>
                     </div>
-                    <a href="http://127.0.0.1:5500/empty.html" class="purchase_design_kit">Purchase Design Kit</a>
+                    <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="purchase_design_kit">Purchase Design Kit</a>
                 </div>
                 <div class="sales__block-element">
                     <h2 class="sales__block-price">$75</h2>
-                    <h3 class="sales__block-tittle">Design & Code Package<h3>
+                    <h3 class="sales__block-tittle">Design & Code Package</h3>
                     <div class="sales__text">
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing 
                             elit. Aenean commodo ligula eget dolor. 
                         </p>
-                        <p class="sales_block-paragraph">
+                        <p class="sales__block-paragraph">
                             Aenean massa. Cum sociis natoque penatibus et 
                             magnis dis parturient montes, nascetur ridiculus 
                         </p>
                     </div>
-                    <a href="http://127.0.0.1:5500/empty.html" class="purchase_package">Purchase Package</a>
+                    <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="purchase_package">Purchase Package</a>
                 </div>
             </div>
         </section>
@@ -208,18 +211,18 @@
                 <div class="line">
                 </div>
                 <div class="about__section">
-                    <a href="http://127.0.0.1:5500/empty.html" class="iot">IOT edition</a>
+                    <a href="http://127.0.0.1:5500/empty.html" target="_blank" class="iot">IOT edition</a>
                     <ul class="about">
-                        <li class="footer__nav-item">Home</li>
-                        <li class="footer__nav-item">About</li>
-                        <li class="footer__nav-item">Contact</li>
+                        <li class="footer__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">Home</a></li>
+                        <li class="footer__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">About</a></li>
+                        <li class="footer__nav-item"><a href="http://127.0.0.1:5500/empty.html" target="_blank">Contact</a></li>
                     </ul>
                     <ul class="social__networks">
-                        <li><a href="https://www.facebook.com/profile.php?id=100089216834640"><img src="./images/Facebook.svg" alt=""></a></li>
-                        <li><a href="https://www.linkedin.com/feed/"><img src="./images/Lincedin.svg" alt=""></a></li>
-                        <li><a href="https://x.com"><img src="./images/Twitter.svg" alt=""></a></li>
-                        <li><a href="https://www.youtube.com"><img src="./images/Youtube.svg" alt=""></a></li>
-                        <li><a href="https://www.instagram.com/torryaa?igsh=MXN3NGtkdGpkdmtocg%3D%3D&utm_source=qr"><img src="./images/Instagram.svg" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100089216834640" target="_blank"><img src="./images/Facebook.svg" alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/feed/" target="_blank"><img src="./images/Lincedin.svg" alt=""></a></li>
+                        <li><a href="https://x.com" target="_blank"><img src="./images/Twitter.svg" alt=""></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><img src="./images/Youtube.svg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/torryaa?igsh=MXN3NGtkdGpkdmtocg%3D%3D&utm_source=qr" target="_blank"><img src="./images/Instagram.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>
