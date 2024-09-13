@@ -1,3 +1,32 @@
+.main {
+    width: 100%;
+
+}
+
+.background__image {
+    background-repeat: no-repeat; /* Забороняє повторювати зображення */
+    background-position: right center; /* Прикріплює зображення до правого краю і по центру по вертикалі */
+    background-size: contain;
+    width: 100%; /* Задає ширину на всю видиму область */
+    height: 100%; /* Задає висоту на всю видиму область */
+    overflow: hidden;
+
+}
+
+.screen__ilustration {
+    margin-top: 160px;
+    margin-right: 0;
+    flex-shrink: 0;
+    width: 643px; /* Забезпечує збереження пропорцій зображення */
+    height: 565px; /* Забезпечує збереження пропорцій зображення */
+    max-height: 100%; /* Обмежує висоту в межах контейнера */
+    max-width: 100%; /* Обмежує ширину в межах контейнера */
+    border-style: solid;
+    position: absolute; /* Залишає зображення на місці при прокручуванні */
+    top: 0;
+    right: 0; /* Прикріплює зображення до правого краю */
+}
+
 .hero__inner {
     display: flex;
     height: 702px;
@@ -10,7 +39,7 @@
 }
 
 .hero__title {
-    width: 540px;
+    min-width: 540px;
     max-height: 96px;
     color: #091133;
     font-size: 36px;
@@ -45,7 +74,6 @@
     width: 255px;
     height: 36px;
     padding-right: 219px;
-    align-items: center;
     flex-shrink: 0;
     margin-bottom: 14px;
 }
@@ -67,12 +95,57 @@
     max-width: 255px;
 }
 
-.screen__ilustration {
-    margin-top: 160px;
-    margin-left: 95px;
-    flex-shrink: 0;
-    overflow: clip;
-    box-sizing: border-box;
-    border-style: solid;
+
+
+    @media  screen and (max-width:540px) {
+        .hero__inner__info-cards {
+            display: block;
+            min-height: fit-content;
+        }
+
+        .hero__inner__info-card {
+            margin-bottom: 48px;
+        }
+        
     }
 
+    @media screen and (max-width: 1110px) {
+        .screen__ilustration {
+            display: none;
+
+        }
+
+        .hero {
+            max-width: 100%;
+        }
+
+        .hero__paragraph {
+            text-align: start;
+            max-width: 100%;
+        }
+
+        .hero__inner__info-cards {
+            display: block;
+            min-height: fit-content;
+        }
+
+        .hero__inner__info-card {
+            margin-bottom: 48px;
+        }
+
+        .hero__inner{
+            display: block;
+            align-items: center;
+            min-height: fit-content;
+        }
+
+        .hero__title {
+            color: #091133;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            text-align: start;
+            max-width: 100%;
+        }
+    }
