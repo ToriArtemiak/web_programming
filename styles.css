@@ -1,0 +1,15 @@
+@import "./normalize.css";
+
+@import "./reset.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css";
+
+@import "./article.css";
+
+@import "./sales.css";
+
+@import "./footer.css"

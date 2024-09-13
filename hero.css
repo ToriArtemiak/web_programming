@@ -1,0 +1,129 @@
+.hero__inner {
+    display: flex;
+    height: 702px;
+}
+
+.hero__inner__left-block {
+    margin-top: 120px;
+    max-width: 540px;
+    align-items: center;
+}
+
+.hero__title {
+    min-width: 540px;
+    max-height: 96px;
+    color: #091133;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.hero__paragraph {
+    max-width: 540px;
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 23px;
+}
+
+.hero__inner__info-cards {
+    padding-top: 26px;
+    max-width: 540px;
+    max-height: 136px;
+    display: flex;
+}
+
+.hero__inner__info-card {
+    margin-right: 32px;
+    max-width: 255px;
+}
+
+.info-card__picture{
+    display: flex;
+    width: 255px;
+    height: 36px;
+    padding-right: 219px;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+}
+
+.info-card__tittle {
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 255px; 
+    margin-bottom: 6px;
+}
+
+.info-card__paragraph {
+    color: #5D6970;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px; 
+    max-width: 255px;
+}
+
+.screen__ilustration {
+    margin-top: 160px;
+    margin-left: 95px;
+    flex-shrink: 0;
+    overflow: clip;
+    box-sizing: border-box;
+    border-style: solid;
+    }
+
+    @media  screen and (max-width:540px) {
+        .hero__inner__info-cards {
+            display: block;
+            min-height: fit-content;
+        }
+
+        .hero__inner__info-card {
+            margin-bottom: 48px;
+        }
+        
+    }
+
+    @media screen and (max-width: 1110px) {
+        .screen__ilustration {
+            display: none;
+
+        }
+
+        .hero {
+            max-width: 100%;
+        }
+
+        .hero__paragraph {
+            text-align: start;
+            max-width: 100%;
+        }
+
+        .hero__inner__info-cards {
+            display: block;
+            min-height: fit-content;
+        }
+
+        .hero__inner__info-card {
+            margin-bottom: 48px;
+        }
+
+        .hero__inner{
+            display: block;
+            align-items: center;
+            min-height: fit-content;
+        }
+
+        .hero__title {
+            color: #091133;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            text-align: start;
+            max-width: 100%;
+        }
+    }

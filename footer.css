@@ -1,0 +1,149 @@
+.footer {
+    margin-right: -500px;
+    width: 1440px;
+    height: 282px;
+    flex-shrink: 0;
+    background: #E7ECFF;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.year-logo {
+    margin-top: 36px;
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+}
+
+.year {
+    color: #939EA4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; 
+    flex-shrink: 0;
+}
+
+.logo{
+    color: #37447E;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    flex-shrink: 0;
+}
+
+.line {
+    width: 1110px;
+    height: 1.005px;
+    flex-shrink: 0;
+    background-color: #CDD1D4;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about__section {
+    max-width: 245px;
+    max-height: 111px;
+    margin-right: 433px;
+    margin-left: 433px;
+}
+
+.iot {
+    width: 109px;
+    height: 26px;
+    border: 0;
+    border-radius: 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFF;
+    background-color: #111B47;
+    margin-left: 62px;
+}
+
+.about {
+    display: flex;
+    max-width: 245px;
+    max-height: 67px;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    flex-shrink: 0;
+    margin-top: 22px;
+}
+
+.footer__nav-item {
+    color: #929ECC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    display: flex;
+}
+
+.social__networks{
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1110px) {
+    .footer {
+        max-width: 100%;
+        align-items: center;
+        min-height: fit-content;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .iot {
+        max-height: 27px;
+        min-width: 100px;
+
+    }
+    .year-logo{
+        display: block;
+        max-width: 100px;
+        align-self: center;
+    }
+
+    .logo{
+        max-width: 100px;
+    }
+
+    .year{
+        max-width: 100px;
+    }
+
+    .about__section{
+        min-width: 100px;
+        display: block;
+        align-items: stretch;
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+
+    .about {
+        display: block;
+        margin-bottom: 36px;
+        align-items: center;
+    }
+
+    .footer__nav-item {
+        max-width: fit-content;
+        align-items: center;
+        text-align: center;
+        vertical-align: baseline;
+        justify-content:space-evenly;
+    }
+
+}
