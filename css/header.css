@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+.header__menu {
+    display: none;
+    width: 32px;
+    cursor: pointer;
+    
+}
+
 .header__title {
     font-size: 26px;
     font-weight: 900;
@@ -15,6 +22,7 @@
 
 .header__nav ul {
     display: flex; 
+    align-items: center;
 }  
 
 .header__nav-item {
@@ -23,10 +31,14 @@
     line-height: 24px;
     font-weight: 400;
     color:#505F98;
+    display: flex;
+    align-items: center;
 }
 
 .header__nav-buttons {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }  
 
 .header__nav__learn-more {
@@ -64,4 +76,60 @@
     line-height: 18px;
     color: #111B47;
     background-color: #ffd166;
+}
+
+@media screen and (max-width: 1110px) {
+    .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 20px 20px;
+        background-color: #E7ECFF;
+        z-index: 10;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+
+    .header__menu {
+        display: block;
+
+    }
+
+
+    .header__nav__learn-more{
+        display: none;
+    }
+
+    .header__nav__buy-now{
+        display: none;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header__nav .header__nav-item {
+        margin-right: 0;
+
+        flex: 1;
+    }
+
+    .header__title {
+        right: 0px;
+        padding-right: 30px;
+
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .header__nav {
+    display: none;
+    }
+
+
 }
