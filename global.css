@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+button {
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+li {
+    display: block;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.TABLET{
+    display: flex;
+    flex-direction: column;
+}
+
