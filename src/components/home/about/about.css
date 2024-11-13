@@ -1,0 +1,44 @@
+.main {
+    padding-top: 250px;
+    padding-left: 140px;
+    height: 734px;
+    flex-shrink: 0;
+    width: 100%;
+    background-image: url(src/components/img/Background_image.png) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FCF9F8;
+}
+
+.main_text {
+    display: block;
+    margin-left: 9.7vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    color: #FCF9F8;
+}
+
+.main_button{
+    display: flex;
+    padding-top: 16px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.choose_T-shirt {
+    color: #040100;
+    text-decoration: none;
+    border-radius: 500px;
+    background: #FCF9F8;
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

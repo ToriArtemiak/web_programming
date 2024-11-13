@@ -1,0 +1,31 @@
+.view-more-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px 530px;
+    display: block;
+}
+
+
+.view-more-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.view-more-button:active {
+    transform: scale(0.98);
+}
+
+.catalog_items {
+    gap: 20px;
+    display: flex;
+    width: 1295px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 72px;
+}

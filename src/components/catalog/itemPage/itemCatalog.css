@@ -1,0 +1,97 @@
+.item-page {
+    display: flex;
+    padding: 20px;
+    justify-content: stretch;
+    gap: 40px;
+}
+
+
+
+
+.item-image {
+    margin: 72px;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    }
+
+.price {
+    font-weight: bold;
+    color: #000000;
+}
+
+.item-details {
+    margin-top: 72px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width:  800px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.characteristics {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+
+.characteristic {
+    border-color: #ececec;
+    border-style: solid;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.countable-field,
+.selectable-field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.countable-field input,
+.selectable-field select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button.add-to-cart-button {
+    background-color: #333;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button.back-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+button.back-button:hover {
+    background-color: #aaa;
+}

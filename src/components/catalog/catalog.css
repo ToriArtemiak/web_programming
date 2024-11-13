@@ -1,0 +1,22 @@
+.view-more-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 500px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px 530px;
+    display: block;
+    justify-self: center;
+}
+
+
+.view-more-button:hover {
+    background-color: #494949;
+    transform: scale(1.05);
+}
+.view-more-button:active {
+    transform: scale(0.98);
+}
