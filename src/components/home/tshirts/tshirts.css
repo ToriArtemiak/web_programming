@@ -1,0 +1,48 @@
+.choose_T-shirt {
+    color: #040100;
+    text-decoration: none;
+    border-radius: 500px;
+    background: #FCF9F8;
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.catalog_header {
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 88px;
+}
+
+.catalog_items {
+    gap: 20px;
+    display: flex;
+    width: 1295px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 72px;
+}
+
+.item {
+    width: 405px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #FFF;
+    justify-items: center;
+    padding: 16px;
+}
+
+.product_name {
+    justify-self: start;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.product_price {
+    justify-self: start;
+    margin-left: 8px;
+}

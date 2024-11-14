@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    height: 72px;
+    background: #FCF9F8;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.header_buttons{
+    list-style: none;
+    display: flex;
+}
+
+.header_button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 40px;
+}
+
+
