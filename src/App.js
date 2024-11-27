@@ -1,0 +1,61 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/home/Home';
+import Cart from './components/cart/Cart';
+import Checkout from './components/checkout/Checkout';
+import Success from './components/success/success';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Catalog from './components/catalog/Catalog';
+import ItemPage from './components/catalog/itemPage/ItemPage';
+import { ItemsProvider } from '/Users/viktoriaartemiak/WebstormProjects/lab7/src/context/itemcontext.js';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
+import ProtectedRoute from './ProtectedRoute';
+import SignOutButton from './SignOutButton';
+
+const App = () => {
+    return (
+    <ItemsProvider>
+        <Router>
+            <Header />
+
+            <Routes>
+                <Route
+                    path="/login"
+                    element={
+                    <Login />
+                    }
+                />
+                <Route
+                    path="/register"
+                    element={
+                    <Register />
+                    }
+                />
+
+                <Route
+                    path="/"
+                    element={
+                        <ProtectedRoute>
+                            <>
+                                <Home />
+                            </>
+                        </ProtectedRoute>
+                    }
+                />
+
+
+                <Route path="/catalog" element={<Catalog />} />
+                <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} />
+                <Route path="/success" element={<Success />} />
+                <Route path="/item/:id" element={<ItemPage />} />
+            </Routes>
+            <Footer />
+        </Router>
+    </ItemsProvider>
+    );
+};
+
+export default App;
