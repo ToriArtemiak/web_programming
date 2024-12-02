@@ -1,0 +1,108 @@
+.auth-container-wrapper {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    min-width: 600px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.auth-container input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    border-radius: 500px;
+    margin-top: 8px;
+    transition: border-color 0.3s ease;
+    padding: 10px 20px;
+    height: 36px;
+}
+
+.auth-container input:focus {
+    border-color: #494949;
+}
+
+.auth-container button {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 500px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    justify-self: center;
+    margin-top: 24px;
+}
+
+.auth-container button:hover {
+    background-color: #494949;
+    transform: scale(1.05);
+}
+
+.auth-container .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.auth-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-container .switch-link {
+    color: rgb(0, 0, 238);
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.auth-container .switch-link:hover {
+    color: #000000;
+}
+.error {
+    color: red;
+    font-size: 3px;
+    margin-top: 4px;
+    min-height: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-5px);
+}
+
+
+.error.active {
+    opacity: 1;
+    transform: translateY(0);
+}
